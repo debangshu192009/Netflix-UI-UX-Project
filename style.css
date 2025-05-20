@@ -1,0 +1,787 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+}
+
+.bg-black {
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    opacity: 0.66;
+}
+
+
+.main-bg {
+    width: 100%;
+    height: 900px;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/fbf440b2-24a0-49f5-b2ba-a5cbe8ea8736/web/IN-en-20250324-TRIFECTA-perspective_d7c906ec-0531-47de-8ece-470d5061c88a_large.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: min(100% 100%);
+}
+
+.logo-name {
+    background: none;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    font-size: 48px;
+    color: rgb(255, 0, 0);
+    position: relative;
+    z-index: 20;
+}
+
+.nav-button {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+select {
+    background: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 6;
+    color: white;
+    font-weight: 200;
+    margin: 8px;
+    cursor: pointer;
+}
+
+select:hover {
+    outline: 2px solid white;
+}
+
+button {
+    background-color: red;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    padding: 9px 13px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 6;
+    color: white;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.main-font .first {
+    font-family: 'Segoe UI';
+    font-weight: 800;
+    font-size: 60px;
+    color: white;
+    position: relative;
+    z-index: 8;
+
+}
+
+.main-font .second {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    z-index: 8;
+    padding-top: 20px;
+}
+
+.main-font .Third {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    z-index: 8;
+    padding-top: 25px;
+}
+
+.bg-font {
+    padding-top: 260px;
+    margin: auto;
+    width: 40vw;
+    height: 500px;
+    position: relative;
+    text-align: center;
+
+}
+
+.email .input-email {
+    position: relative;
+    z-index: 10;
+    background: none;
+    padding-left: 20px;
+    width: 500px;
+    height: 57px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #7a7777;
+    color: white;
+}
+
+.email .input-email:hover {
+    outline: 0.5px solid rgb(184, 182, 182);
+
+}
+
+
+.email button {
+    position: relative;
+    z-index: 5;
+    padding: 15px 40px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.email {
+    display: flex;
+    gap: 10px;
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 {
+    display: flex;
+    overflow: hidden;
+    gap: 55px;
+    height: 400px;
+    width: 80vw;
+    margin: auto;
+}
+
+.section1-heading {
+    width: 85vw;
+    height: 40px;
+    margin: auto;
+    padding-top: 90px;
+    font-family: 'Segoe UI';
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+}
+
+.section1 img {
+    position: relative;
+    top: 100px;
+    height: 275px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.section1 img:hover {
+    height: 300px;
+    width: 270px;
+    cursor: pointer;
+
+}
+
+.sepration {
+    width: 100vw;
+    height: 4px;
+    background-color: gray;
+}
+
+.section2-heading {
+    width: 85vw;
+    height: 40px;
+    margin: auto;
+    padding-top: 60px;
+    font-family: 'Segoe UI';
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+}
+
+.section2 {
+    width: 80vw;
+    margin: auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box {
+    height: 350px;
+    width: 320px;
+    background-color: rgb(0, 88, 88);
+    border-radius: 20px;
+}
+
+.box-heading {
+    font-family: 'Segoe UI';
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.box-body {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-weight: 300;
+    color: rgba(250, 250, 250, 0.7);
+
+}
+
+.box img {
+    width: 82px;
+    height: 82px;
+    background-color: none;
+    color: none;
+    position: relative;
+    top: 110px;
+    left: 220px;
+}
+
+.faq {
+    margin-top: 30px;
+}
+
+.faq-heading {
+    font-family: 'Segoe UI';
+    font-size: 38px;
+    font-weight: 800;
+    color: white;
+    position: relative;
+    left: 250px;
+    padding: 40px;
+}
+
+
+.question1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    margin-top: 20px;
+    height: 80px;
+    width: 70vw;
+    margin: auto;
+    background-color: rgb(45, 45, 45);
+    margin-bottom: 10px;
+}
+
+.question2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    margin-top: 20px;
+    height: 80px;
+    width: 70vw;
+    margin: auto;
+    background-color: rgb(45, 45, 45);
+    margin-bottom: 10px;
+}
+
+.question3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    margin-top: 20px;
+    height: 80px;
+    width: 70vw;
+    margin: auto;
+    background-color: rgb(45, 45, 45);
+    margin-bottom: 10px;
+}
+
+.question4 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    margin-top: 20px;
+    height: 80px;
+    width: 70vw;
+    margin: auto;
+    background-color: rgb(45, 45, 45);
+    margin-bottom: 10px;
+}
+
+.question5 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    margin-top: 20px;
+    height: 80px;
+    width: 70vw;
+    margin: auto;
+    background-color: rgb(45, 45, 45);
+    margin-bottom: 10px;
+}
+
+.question6 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    margin-top: 20px;
+    height: 80px;
+    width: 70vw;
+    margin: auto;
+    background-color: rgb(45, 45, 45);
+    margin-bottom: 10px;
+}
+
+
+.faq img {
+    padding-top: 5px;
+    padding-right: 10px;
+    width: 35px;
+    height: 30px;
+    filter: invert(1);
+}
+
+.footer-email .message {
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    color: white;
+    padding-top: 50px;
+}
+
+.footer-top {
+    position: relative;
+    left: 320px;
+    height: 50px;
+    width: 20vw;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: rgb(185, 184, 184);
+    display: flex;
+}
+
+.footer-policy {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 66vw;
+    margin: auto;
+}
+
+.footer {
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    text-decoration: underline;
+    height: 40px;
+    width: 10vw;
+    color: rgb(185, 184, 184);
+    display: flex;
+}
+
+.footer-select {
+    position: relative;
+    top: 20px;
+    left: 305px;
+}
+
+.last {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    color: white;
+    position: relative;
+    left: 310px;
+}
+
+@media (max-width: 720px) {
+
+
+    .nav-button {
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .logo-name {
+        background: none;
+        font-family: 'Segoe UI';
+        font-weight: 500;
+        font-size: 38px;
+        color: rgb(255, 0, 0);
+        position: relative;
+        z-index: 20;
+    }
+
+    select {
+        background: none;
+        padding: 4px 12px;
+        border-radius: 5px;
+        position: relative;
+        z-index: 6;
+        color: white;
+        font-weight: 200;
+        margin: 3px;
+    }
+
+    button {
+        background-color: red;
+        font-family: sans-serif;
+        font-weight: bolder;
+        border: none;
+        outline: none;
+        padding: 6px 10px;
+        border-radius: 5px;
+        position: relative;
+        z-index: 6;
+        color: white;
+        font-weight: 200;
+    }
+
+    .main-font {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -80px;
+    }
+
+    .main-font .first {
+        width: 90vw;
+        text-align: center;
+        font-family: 'Segoe UI';
+        font-weight: 800;
+        font-size: 35px;
+        color: white;
+        position: relative;
+        z-index: 8;
+
+    }
+
+    .main-font .second {
+        width: 90vw;
+        font-size: 20px;
+        color: white;
+        position: relative;
+        z-index: 8;
+        padding-top: 20px;
+    }
+
+    .main-font .Third {
+        width: 90vw;
+        font-size: 20px;
+        color: white;
+        position: relative;
+        z-index: 8;
+        padding-top: 25px;
+    }
+
+    .bg-black {
+        height: 700px;
+    }
+
+    .main-bg {
+        height: 700px;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .email .input-email {
+        position: relative;
+        z-index: 10;
+        background: none;
+        padding-left: 20px;
+        width: 300px;
+        height: 47px;
+        font-size: 16px;
+        border-radius: 4px;
+        border: 1px solid #7a7777;
+        color: white;
+    }
+
+
+    .email button {
+        position: relative;
+        z-index: 5;
+        padding: 10px 40px;
+        font-family: 'Segoe UI';
+        font-size: 12px;
+        font-weight: bolder;
+
+    }
+
+    .section1-heading {
+        width: 85vw;
+        height: 40px;
+        margin: auto;
+        padding-top: 40px;
+        font-family: 'Segoe UI';
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .section1 img {
+        position: relative;
+        top: 50px;
+        height: 175px;
+        width: 150px;
+        border-radius: 10px;
+    }
+
+    .section2-heading {
+        width: 85vw;
+        height: 40px;
+        margin: auto;
+        margin-top: -190px;
+        font-family: 'Segoe UI';
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .section2 {
+        width: 90vw;
+        margin-left: 25px;
+        margin-top: 50px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+
+    }
+
+    .box {
+        height: 250px;
+        width: 350px;
+        background-color: rgb(0, 88, 88);
+        border-radius: 20px;
+    }
+
+    .box img {
+        width: 82px;
+        height: 82px;
+        background-color: none;
+        color: none;
+        position: relative;
+        top: 30px;
+        left: 260px;
+    }
+
+    .faq-heading {
+        font-family: 'Segoe UI';
+        font-size: 24px;
+        font-weight: 800;
+        color: white;
+        position: relative;
+        left: -5px;
+        padding: 40px;
+    }
+
+    .question1 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: 20px;
+        color: white;
+        font-weight: 400;
+        font-family: 'Segoe UI';
+        margin-top: 20px;
+        height: 80px;
+        width: 90vw;
+        margin: auto;
+        background-color: rgb(45, 45, 45);
+        margin-bottom: 10px;
+    }
+
+    .question2 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: 20px;
+        color: white;
+        font-weight: 400;
+        font-family: 'Segoe UI';
+        margin-top: 20px;
+        height: 80px;
+        width: 90vw;
+        margin: auto;
+        background-color: rgb(45, 45, 45);
+        margin-bottom: 10px;
+    }
+
+    .question3 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: 20px;
+        color: white;
+        font-weight: 400;
+        font-family: 'Segoe UI';
+        margin-top: 20px;
+        height: 80px;
+        width: 90vw;
+        margin: auto;
+        background-color: rgb(45, 45, 45);
+        margin-bottom: 10px;
+    }
+
+    .question4 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: 20px;
+        color: white;
+        font-weight: 400;
+        font-family: 'Segoe UI';
+        margin-top: 20px;
+        height: 80px;
+        width: 90vw;
+        margin: auto;
+        background-color: rgb(45, 45, 45);
+        margin-bottom: 10px;
+    }
+
+    .question5 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: 20px;
+        color: white;
+        font-weight: 400;
+        font-family: 'Segoe UI';
+        margin-top: 20px;
+        height: 80px;
+        width: 90vw;
+        margin: auto;
+        background-color: rgb(45, 45, 45);
+        margin-bottom: 10px;
+    }
+
+    .question6 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: 20px;
+        color: white;
+        font-weight: 400;
+        font-family: 'Segoe UI';
+        margin-top: 20px;
+        height: 80px;
+        width: 90vw;
+        margin: auto;
+        background-color: rgb(45, 45, 45);
+        margin-bottom: 10px;
+    }
+
+    .footer-policy {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        width: 90vw;
+        position: relative;
+        left: 50px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+
+    }
+
+    .footer-top {
+        position: relative;
+        left: 70px;
+        font-size: 18px;
+        height: 50px;
+        width: 90vw;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        color: rgb(185, 184, 184);
+        display: flex;
+    }
+
+    .footer {
+        font-size: 16px;
+    }
+
+    .footer-select {
+        position: relative;
+        top: 20px;
+        left: 68px;
+    }
+
+    .last {
+        padding-top: 40px;
+        padding-bottom: 50px;
+        font-family: 'Segoe UI';
+        font-size: 14px;
+        color: white;
+        position: relative;
+        left: 71px;
+    }
+
+}
+
+
+@media (max-width: 1820px) {
+    .email button {
+
+        position: relative;
+        z-index: 5;
+        display: flex;
+        padding: 18px 40px;
+        font-family: 'Segoe UI';
+
+        font-size: 15px;
+        font-weight: bolder;
+
+    }
+
+}
